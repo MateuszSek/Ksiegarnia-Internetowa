@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>Księgarnia Internetowa</title>
+    <link rel="stylesheet" href="css/style.css"/> <!-- for width > 1475px -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet"> 
+</head>
+<body>
+    <div id="header">
+        <h1>Księgarnia Internetowa Mat-Book</h1>
+    </div>
+    <div id="main_description">
+        <span id="currentWidth">Szerokość okna:</span>
+    </div>
+    <div id='menu_cart'>
+            
+            <div id="left_menu">
+                <br>
+                <button class="login">Zaloguj!</button><br>
+                <button class="login">Załóż konto</button>
+                <br><br>
+                <div id='categories'>
+                        <span style="font-weight:bold;"> Kategorie:</span><br><button id="show_all">Wszystkie</button><br><button>Sensacja/Kryminał</button><br><button>Historia</button><br><button>Klasyka</button><br><button>Nauki Społeczne</button><br><button>Popularnonaukowe</button><br><button>Informatyka</button><br><button>Literatura Piękna</button><br><button>Fantastyka</button><br><br>
+                </div>
+            </div>
+            <div id='cart'>
+                    <span style="font-weight:bold">Twój koszyk:</span><br>
+                    <span id="how_many_in_cart">Ilość elementów: 0</span><br>
+                    <span id="cost_of_cart">Do zapłaty: 0</span><br>
+                    <span id = "whatInCart">Pokaż zawartość</span><br>
+                    <span id= "emptyCart">Opróżnij koszyk</span>
+            </div>
+    </div>
+
+    <div id="all_books">
+            <div class='book' id='book0'>
+                <div class="title_container">"Bractwo Róży" - David Morell</div>
+                <div class='img_and_desc_container'>
+                        <div class="img_container"><img src="images/Bractwo_rozy.jpg" alt="BractwoRozy_picture"></div>
+                        <div class="desc_container">Saul i Chris. Agenci CIA o kryptonimach Romulus i Remus. Łączą ich więzy równie silne, jak rodzonych braci: od piątego roku życia wychowywali się razem w specjalnej szkole dla chłopców w Filadelfii, szkoląc się na zawodowych zabójców. Nie mają rodziców, a jedynie przybranego ojca, człowieka, któremu bezgranicznie ufają - tajemniczego mężczyznę noszącego nazwisko Eliot. </div>
+                </div>
+                <div class='categories'>Autor: David Morell<br>Kategoria: <a href="index.html"> Sensacja/Kryminał </a></div>
+                <div class="price">Cena: 39.00 zł</div>
+                <div class="cart"><button id = 'b0'>Dodaj do koszyka</button></div>
+
+            </div>
+            <div class='book' id='book1'>
+                    <div class="title_container">"Pakt Ribbentrop-Beck" - Piotr Zychowicz</div>
+                    <div class='img_and_desc_container'>
+                        <div class="img_container"><img src="images/pakt_rib_beck.jpg" alt="Pakt_Ribb_beck_picture"></div>
+                        <div class="desc_container">W dziejach narodów są chwile, gdy trzeba zacisnąć zęby i iść na bolesne koncesje. Ustąpić, aby ratować państwo przed zniszczeniem, a obywateli przed zagładą. W takiej sytuacji znalazła się Polska w 1939 roku.
+                        Piotr Zychowicz konsekwentnie dowodzi, że decyzja o przystąpieniu do wojny z Niemcami w iluzorycznym sojuszu z Wielką Brytanią i Francją była fatalnym błędem, za który zapłaciliśmy straszliwą cenę.</div>
+                    </div>
+                    <div class='categories'>Autor: Piotr Zychowicz<br>Kategoria: <a href="index.html"> Historia </a></div>   <div class="price">Cena: 49.00 zł</div>
+                    <div class="cart"><button id = 'b1'>Dodaj do koszyka</button></div>
+            </div>
+            <div class='book' id='book2'>
+                    <div class="title_container">"Zielona Mila" - Stephen King</div>
+                    <div class='img_and_desc_container'>
+                        <div class="img_container"><img src="images/zielona_mila.jpg" alt="Zielona_mila_picture"></div>
+                        <div class="desc_container">Wśród więźniów Cold Mountain znajduje się nieobliczalny, niezwykle agresywny młodociany zabójca William Wharton; jest Eduard Delacroix, niepozorny Francuz który zgwałcił i zabił młodą dziewczynę. Jest wreszcie skazany za brutalny mord na dwóch małych dziewczynkach John Coffey, zagadkowy olbrzym o wiecznie załzawionych oczach. Co łączy tych ludzi? </div>
+                    </div>
+                    <div class='categories'>Autor: Stephen King<br>Kategoria: <a href="index.html"> Klasyka </a></div>   
+                    <div class="price">Cena: 34.99 zł</div>
+                    <div class="cart"><button id = 'b2'>Dodaj do koszyka</button></div>
+            </div>
+            <div class='book' id='book3'>
+                    <div class="title_container">"Mozaika Parsifala" - Robert Ludlum</div>
+                    <div class='img_and_desc_container'>
+                        <div class="img_container"><img src="images/mozaika_parsifala.jpg" alt="Mozaika_parsifala_picture"></div>
+                        <div class="desc_container">Agent amerykańskiego wywiadu Michael Havelock jest świadkiem egzekucji wykonanej na jego partnerce życiowej, agentce CIA, Jennie Karas. Śmierć ukochanej wstrząsa Michaelem, decyduje się odejść ze służby. Wyrusza w podróż do Europy. W Rzymie przeżyje szok: na peronie głównego dworca dostrzega kobietę przypominającą do złudzenia Jennę. Czy śmierć dziewczyny była jedynie mistyfikacją? </div>
+                    </div>
+                    <div class='categories'>Autor: Robert Ludlum<br>Kategoria: <a href="index.html"> Sensacja/Kryminał </a></div>   
+                    <div class="price">Cena: 34.99 zł</div>
+                    <div class="cart"><button id = 'b3'>Dodaj do koszyka</button></div>
+            </div>
+
+                <div class='book' id='book4'>
+                    <div class="title_container">"Duma i uprzedzenie" - Jane Austen</div>
+                    <div class='img_and_desc_container'>
+                        <div class="img_container"><img src="images/duma_uprzedzenie.jpg" alt="duma_i_uprzedzenie_picture"></div>
+                        <div class="desc_container">"Duma i uprzedzenie" uważana jest za arcydzieło w dorobku tej angielskiej pisarki, głównie dzięki zabawnym, zgoła dickensowskim opisom postaci głupich i niesympatycznych. Znajdujemy tu także melancholijną refleksję nad władzą pieniądza i znaczeniem pozycji społecznej, decydujących o życiu młodej panny; a przede wszystkim znakomity, powściągliwy styl, doskonale oddający harmonię opisywanego świata... </div>
+                    </div>
+                    <div class='categories'>Autor: Jane Austen<br>Kategoria: <a href="index.html"> Klasyka </a></div>   
+                    <div class="price">Cena: 40.00 zł</div>
+                    <div class="cart"><button id = 'b4'>Dodaj do koszyka</button></div>
+                </div>
+                <div class='book' id='book5'>
+                        <div class="title_container">"Pasażer 23" - Sebastian Fitzek</div>
+                        <div class='img_and_desc_container'>
+                                <div class="img_container"><img src="images/pasazer_23.jpg" alt="pasazer_23_picture"></div>
+                                <div class="desc_container">5 lat temu Martin Schwarz, psycholog policyjny, stracił żonę i synka. Odtąd jest wrakiem człowieka. Wyzywając los, rzuca się w wir straceńczych misji jako policjant pracujący pod przykryciem. Pewnego dnia otrzymuje telefon od starszej pani. Twierdzi ona, że ma nowe dowody w sprawie zaginięcia jego rodziny...</div>
+                        </div>
+                        <div class='categories'>Autor: Sebastian Fitzek<br>Kategoria: <a href="index.html"> Sensacja/Kryminał </a></div>
+                        <div class="price">Cena: 29.00 zł</div>
+                        <div class="cart"><button id = 'b5'>Dodaj do koszyka</button></div>
+                </div>
+                <div class='book' id='book6'>
+                        <div class="title_container">"Kod Leonarda Da Vinci" - Dan Brown</div>
+                        <div class='img_and_desc_container'>
+                                <div class="img_container"><img src="images/kod_davinci.jpg" alt="kod_davinci_picture"></div>
+                                <div class="desc_container">W Luwrze zostaje popełnione morderstwo. Jego ofiarą jest kustosz. Zwłoki zostają znalezione w pozycji przypominającej sławny rysunek witruwiański, na którym renesansowy artysta przedstawił idealne proporcje ludzkiego ciała. W zbrodnię zamieszany jest - według policji - profesor z Harvardu, znawca symboliki religijnej.</div>
+                        </div>
+                        <div class='categories'>Autor: Dan Brown<br>Kategoria: <a href="index.html"> Sensacja/Kryminał </a></div>
+                        <div class="price">Cena: 31.00 zł</div>
+                        <div class="cart"><button id = 'b6'>Dodaj do koszyka</button></div>
+                </div>
+                <div class='book' id='book7'>
+                        <div class="title_container">"Powstający Prometusz" - R. A. Wilson</div>
+                        <div class='img_and_desc_container'>
+                                <div class="img_container"><img src="images/prometeusz.jpg" alt="prometeusz_picture"></div>
+                                <div class="desc_container">Kim jest człowiek? Jakie jest jego miejsce w świecie? I jakie rządzą nim mechanizmy? Ile jest w nim z anioła, a ile z robota? Jaką funkcję pełni w nim świadomość? I jak często przebywa we śnie? W Powstającym Prometeuszu Robert Anton Wilson wysyła nas w podróż po ośmiu etapach w ewolucji ludzkości, wyposażając nas w mapę, dzięki której łatwiej jest nam wydostać się z krainy własnych ograniczeń. </div>
+                        </div>
+                        <div class='categories'>Autor: Robert Anton Wilson<br>Kategoria: <a href="index.html"> Nauki społeczne </a></div>
+                        <div class="price">Cena: 37.00 zł</div>
+                        <div class="cart"><button id = 'b7'>Dodaj do koszyka</button></div>
+                </div>
+                <div class='book' id='book8'>
+                        <div class="title_container">"Fizyka rzeczy niemożliwych" - Michio Kaku</div>
+                        <div class='img_and_desc_container'>
+                                <div class="img_container"><img src="images/fizyka_niemozliwe.jpg" alt="fizyka_niemozliwe_picture"></div>
+                                <div class="desc_container">Pola siłowe, ubrania zapewniające niewidzialność. Czy będą dostępne już w najbliższych 10-leciach? Jeszcze sto lat temu uczeni stwierdziliby, że lasery, telewizja i bomba atomowa to pomysły całkowicie abstrakcyjne. W "Fizyce rzeczy niemożliwych" uznany fizyk Michio Kaku sprawdza, w jakim stopniu rozwiązania spotykane w fantastyce naukowej, staną się w przyszłości codziennością.</div>
+                        </div>
+                        <div class='categories'>Autor: Michio Kaku<br>Kategoria: <a href="index.html"> Popularnonaukowe </a></div>                                                
+                        <div class="price">Cena: 44.00 zł</div>
+                        <div class="cart"><button id = 'b8'>Dodaj do koszyka</button></div>
+                </div>
+
+                <div class='book' id='book9'>
+                            <div class="title_container">"Czysty kod." - Robert Cecil Martin</div>
+                            <div class='img_and_desc_container'>
+                                <div class="img_container"><img src="images/czysty_kod.jpg" alt="czysty_kod_picture"></div>
+                                <div class="desc_container">O tym, ile problemów sprawia niedbale napisany kod, wie każdy programista. Nie wszyscy jednak wiedzą, jak napisać ten świetny, "czysty" kod i czym właściwie powinien się on charakteryzować. Co więcej - jak odróżnić dobry kod od złego? Odpowiedź na te pytania oraz sposoby tworzenia czystego, czytelnego kodu znajdziesz właśnie w tej książce.</div>
+                            </div>
+                            <div class='categories'>Autor: Robert Cecil Martin<br>Kategoria: <a href="index.html"> Informatyka </a></div> 
+                            <div class="price">Cena: 49.00 zł</div>
+                            <div class="cart"><button id = 'b9'>Dodaj do koszyka</button></div>
+                </div>
+                <div class='book' id='book10'>
+                        <div class="title_container">"P.S. Kocham Cię" - Cecelia Ahern</div>
+                        <div class='img_and_desc_container'>
+                                <div class="img_container"><img src="images/PS_kocham.jpg" alt="PSKocham_picture"></div>
+                                <div class="desc_container">Holly i Gerry byli razem od dziecka, dokańczali swoje zdania i śmiali się nawet, gdy się kłócili. Bratnie dusze, które się odnalazły. Dopóki nie stało się coś nieoczekiwanego. Śmierć Gerry'ego niszczy Holly. Lecz w dniu jej 30 urodzin, Gerry do niej wraca. Zostawił jej kilka listów, które powoli wprowadzają Holly w jej nowe życie - bez niego. Każdy liścik kończy się podpisem "PS Kocham Cię".</div>
+                        </div>
+                        <div class='categories'>Autor: Cecelia Ahern<br>Kategoria: <a href="index.html"> Literatura piękna </a></div> 
+                        <div class="price">Cena: 29.00 zł</div>
+                        <div class="cart"><button id = 'b10'>Dodaj do koszyka</button></div>                       
+                </div>
+                <div class='book' id='book11'>
+                        <div class="title_container">"Nowy wspaniały świat" - Aldous Huxley</div>
+                        <div class='img_and_desc_container'>
+                                <div class="img_container"><img src="images/nowy_swiat.jpg" alt="nowy_swiat_picture"></div>
+                                <div class="desc_container">Przerażająca wizja społeczeństwa przyszłości, uszczęśliwianego na siłę, całkowicie zorganizowanego, składającego się z pozbawionych uczuć wyższych ludzkich automatów, idealnych konsumentów o stałych potrzebach. „Szczęśliwi ludzie to tacy, którzy nie są świadomi lepszych i większych możliwości, żyją we własnych światach odpowiednio skrojonych do ich predyspozycji.”</div>
+                        </div>
+                        <div class='categories'>Autor: Aldous Huxley<br>Kategoria: <a href="index.html"> Fantastyka </a></div>
+                        <div class="price">Cena: 35.00 zł</div>
+                        <div class="cart"><button id = 'b11'>Dodaj do koszyka</button></div>
+                </div> <!-- tu sie zaczyna bal -->
+        </div> <!-- end of 'all books' -->
+
+        <div id='footer'>Twórca strony - Mateusz Sęk</div>
+        
+        <script src="scripts/jquery.js"></script>
+        <script src="scripts/myscript.js"></script>
+</body>
+</html>
